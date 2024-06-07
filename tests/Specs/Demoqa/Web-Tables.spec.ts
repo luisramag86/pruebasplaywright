@@ -4,6 +4,7 @@ import { Registro } from '../../POM/DemoQA/web-table-form';
 import { usuarios } from '../../POM/DemoQA/web-tables';
 import { formedit } from '../../POM/DemoQA/web-tables-edituser';
 
+
 test('Luis-Web-Tables-Add', async ({ page }) => {
     await page.goto(process.env.URL2 || '')
     await page.setViewportSize({ width: 1920, height: 1080 });
